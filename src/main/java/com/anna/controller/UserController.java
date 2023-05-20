@@ -72,7 +72,7 @@ public class UserController extends HttpServlet implements Serializable {
 			String email = decrypt(emaRec, dKey, iv);
 
 			User user = new User(cpf, name, email);
-			userRepository.save(user);
+			save(user);
 
 			String finalResponse = "[{";
 			finalResponse += "\"PropName\":\"EXECFUNCTION002\",";
@@ -140,9 +140,8 @@ public class UserController extends HttpServlet implements Serializable {
 		return new String(plainText, "UTF-8");
 	}
 
-	/*
-	 * @PostMapping public User save(@RequestBody User user) { return
-	 * userRepository.save(user); }
-	 */
+	public User save(User user) {
+		return userRepository.save(user);
+	}
 
 }
