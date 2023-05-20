@@ -1,5 +1,0 @@
-com\anna\config\TestConfig.class
-com\anna\repository\UserRepository.class
-com\anna\domain\User.class
-com\anna\AnnaSampleCustomerRegistrationApplication.class
-com\anna\controller\UserController.class
