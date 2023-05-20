@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.anna.AnnaSampleCustomerRegistrationApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.223 s - in com.anna.AnnaSampleCustomerRegistrationApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.295 s - in com.anna.AnnaSampleCustomerRegistrationApplicationTests
